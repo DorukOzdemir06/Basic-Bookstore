@@ -70,8 +70,8 @@ namespace awesome_bookstrore
             
             DarkLight.BackColor = Color.FromArgb(180, 235, 235, 235);
             
-            textBox1.Text = "Sipariş edilen kitaplar;\n";
-            this.FormBorderStyle = FormBorderStyle.FixedSingle; // sayfa düzenini bozuluyor diye resacele'i kaldırdım
+            textBox1.Text = "Added items;\n";
+            this.FormBorderStyle = FormBorderStyle.FixedSingle; 
 
             
 
@@ -572,33 +572,7 @@ namespace awesome_bookstrore
             }
         }
 
-        private void button26_Click_1(object sender, EventArgs e)
-        {
-            Form formBackground = new Form();
-            try
-            {
-                using (about uu = new about())
-                {
-                    formBackground.StartPosition = FormStartPosition.Manual;
-                   
-                    formBackground.TopMost = true;
-                    formBackground.Location = this.Location;
-      
-                    uu.ShowDialog();
-
-                    formBackground.Dispose();
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-            finally
-            {
-                
-                formBackground.Dispose();
-            }
-        }
+        
 
         private void panel3_Paint(object sender, PaintEventArgs e)
         {

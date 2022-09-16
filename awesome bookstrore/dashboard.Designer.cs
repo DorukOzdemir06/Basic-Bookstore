@@ -227,17 +227,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(221, 857);
             this.panel1.TabIndex = 0;
-            // 
-            // button26
-            // 
-            this.button26.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button26.Location = new System.Drawing.Point(54, 674);
-            this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(109, 32);
-            this.button26.TabIndex = 80;
-            this.button26.Text = "About us";
-            this.button26.UseVisualStyleBackColor = true;
-            this.button26.Click += new System.EventHandler(this.button26_Click_1);
+            
             // 
             // button14
             // 
