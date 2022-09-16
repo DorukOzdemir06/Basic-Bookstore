@@ -396,21 +396,27 @@ namespace awesome_bookstrore
 
 
 
+            try
+            {
 
 
-
-            MailMessage mail = new MailMessage("eee120.BookStore@gmail.com", label7.Text, "Kitap Siparişi", textBox1.Text);
-            SmtpClient client = new SmtpClient("smtp.gmail.com");
-            client.Port = 587;
-            client.Credentials = new System.Net.NetworkCredential("eee120.BookStore@gmail.com", "bookstore120");
-            client.EnableSsl = true;
-            client.Send(mail);
-
+                MailMessage mail = new MailMessage("eee120.BookStore@gmail.com", label7.Text, "Kitap Siparişi", textBox1.Text);
+                SmtpClient client = new SmtpClient("smtp.gmail.com");
+                client.Port = 587;
+                client.Credentials = new System.Net.NetworkCredential("eee120.BookStore@gmail.com", "bookstore120");
+                client.EnableSsl = true;
+                client.Send(mail);
+            }
+            catch { }
 
             label20.Text = "0";
             label4.Text = "0";
             book_number = 0;
             price = 0;
+            dataGridView1.Rows.Clear();
+            textBox1.Text = "Added items;\n";
+
+            MessageBox.Show("Order is successfully claimed.");
             conn.Close();
         }
 
@@ -575,6 +581,11 @@ namespace awesome_bookstrore
         
 
         private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
         {
 
         }

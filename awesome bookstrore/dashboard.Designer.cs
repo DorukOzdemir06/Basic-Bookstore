@@ -223,19 +223,26 @@
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(221, 857);
+            this.panel1.Size = new System.Drawing.Size(295, 1055);
             this.panel1.TabIndex = 0;
-            
+            // 
+            // button26
+            // 
+            this.button26.Location = new System.Drawing.Point(0, 0);
+            this.button26.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button26.Name = "button26";
+            this.button26.Size = new System.Drawing.Size(100, 28);
+            this.button26.TabIndex = 0;
             // 
             // button14
             // 
             this.button14.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button14.Location = new System.Drawing.Point(22, 128);
-            this.button14.Margin = new System.Windows.Forms.Padding(2);
+            this.button14.Location = new System.Drawing.Point(29, 158);
+            this.button14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(176, 36);
+            this.button14.Size = new System.Drawing.Size(235, 44);
             this.button14.TabIndex = 79;
             this.button14.Text = "Purchase history";
             this.button14.UseVisualStyleBackColor = true;
@@ -244,9 +251,10 @@
             // DarkLight
             // 
             this.DarkLight.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.DarkLight.Location = new System.Drawing.Point(12, 795);
+            this.DarkLight.Location = new System.Drawing.Point(16, 978);
+            this.DarkLight.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.DarkLight.Name = "DarkLight";
-            this.DarkLight.Size = new System.Drawing.Size(64, 50);
+            this.DarkLight.Size = new System.Drawing.Size(85, 62);
             this.DarkLight.TabIndex = 78;
             this.DarkLight.Text = "Light";
             this.DarkLight.UseVisualStyleBackColor = true;
@@ -257,11 +265,11 @@
             this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.textBox2.Location = new System.Drawing.Point(10, 111);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox2.Location = new System.Drawing.Point(13, 137);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox2.Name = "textBox2";
             this.textBox2.PasswordChar = '*';
-            this.textBox2.Size = new System.Drawing.Size(109, 13);
+            this.textBox2.Size = new System.Drawing.Size(145, 15);
             this.textBox2.TabIndex = 77;
             this.textBox2.Text = "bookstro120";
             // 
@@ -269,10 +277,9 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(6, 93);
-            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label7.Location = new System.Drawing.Point(8, 114);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(30, 15);
+            this.label7.Size = new System.Drawing.Size(39, 20);
             this.label7.TabIndex = 76;
             this.label7.Text = "mail";
             // 
@@ -340,20 +347,19 @@
             this.panel2.Controls.Add(this.pictureBox4);
             this.panel2.Controls.Add(this.pictureBox3);
             this.panel2.Controls.Add(this.pictureBox2);
-            this.panel2.Location = new System.Drawing.Point(226, 10);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2);
+            this.panel2.Location = new System.Drawing.Point(301, 12);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(939, 838);
+            this.panel2.Size = new System.Drawing.Size(1252, 1031);
             this.panel2.TabIndex = 75;
             // 
             // label49
             // 
             this.label49.AutoSize = true;
             this.label49.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label49.Location = new System.Drawing.Point(316, 12734);
-            this.label49.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label49.Location = new System.Drawing.Point(421, 15673);
             this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(70, 20);
+            this.label49.Size = new System.Drawing.Size(82, 25);
             this.label49.TabIndex = 128;
             this.label49.Text = "30.00 TL";
             // 
@@ -361,10 +367,9 @@
             // 
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(316, 12898);
-            this.label18.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label18.Location = new System.Drawing.Point(421, 15874);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(70, 20);
+            this.label18.Size = new System.Drawing.Size(82, 25);
             this.label18.TabIndex = 127;
             this.label18.Text = "22.00 TL";
             // 
@@ -372,10 +377,9 @@
             // 
             this.label43.AutoSize = true;
             this.label43.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label43.Location = new System.Drawing.Point(307, 12696);
-            this.label43.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label43.Location = new System.Drawing.Point(409, 15626);
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(190, 20);
+            this.label43.Size = new System.Drawing.Size(232, 25);
             this.label43.TabIndex = 126;
             this.label43.Text = "Author: Stephen Hawking";
             // 
@@ -383,10 +387,9 @@
             // 
             this.label44.AutoSize = true;
             this.label44.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label44.Location = new System.Drawing.Point(307, 12666);
-            this.label44.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label44.Location = new System.Drawing.Point(409, 15589);
             this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(98, 20);
+            this.label44.Size = new System.Drawing.Size(121, 25);
             this.label44.TabIndex = 125;
             this.label44.Text = "Kara Delikler";
             // 
@@ -394,10 +397,9 @@
             // 
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(316, 12549);
-            this.label17.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label17.Location = new System.Drawing.Point(421, 15445);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(79, 20);
+            this.label17.Size = new System.Drawing.Size(92, 25);
             this.label17.TabIndex = 124;
             this.label17.Text = "312.00 TL";
             // 
@@ -405,10 +407,9 @@
             // 
             this.label41.AutoSize = true;
             this.label41.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label41.Location = new System.Drawing.Point(316, 12424);
-            this.label41.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label41.Location = new System.Drawing.Point(421, 15291);
             this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(196, 20);
+            this.label41.Size = new System.Drawing.Size(239, 25);
             this.label41.TabIndex = 123;
             this.label41.Text = "Author:  Delilah S. Dawson";
             // 
@@ -416,19 +417,18 @@
             // 
             this.label42.AutoSize = true;
             this.label42.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label42.Location = new System.Drawing.Point(316, 12394);
-            this.label42.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label42.Location = new System.Drawing.Point(421, 15254);
             this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(139, 20);
+            this.label42.Size = new System.Drawing.Size(168, 25);
             this.label42.TabIndex = 122;
             this.label42.Text = "Star Wars: Phasma";
             // 
             // button12
             // 
-            this.button12.Location = new System.Drawing.Point(320, 12766);
-            this.button12.Margin = new System.Windows.Forms.Padding(2);
+            this.button12.Location = new System.Drawing.Point(427, 15712);
+            this.button12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(77, 44);
+            this.button12.Size = new System.Drawing.Size(103, 54);
             this.button12.TabIndex = 121;
             this.button12.Text = "Add to Cart";
             this.button12.UseVisualStyleBackColor = true;
@@ -436,10 +436,10 @@
             // 
             // button11
             // 
-            this.button11.Location = new System.Drawing.Point(320, 12583);
-            this.button11.Margin = new System.Windows.Forms.Padding(2);
+            this.button11.Location = new System.Drawing.Point(427, 15487);
+            this.button11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(77, 44);
+            this.button11.Size = new System.Drawing.Size(103, 54);
             this.button11.TabIndex = 120;
             this.button11.Text = "Add to Cart";
             this.button11.UseVisualStyleBackColor = true;
@@ -448,10 +448,10 @@
             // pictureBox13
             // 
             this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
-            this.pictureBox13.Location = new System.Drawing.Point(68, 12666);
-            this.pictureBox13.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox13.Location = new System.Drawing.Point(91, 15589);
+            this.pictureBox13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(208, 233);
+            this.pictureBox13.Size = new System.Drawing.Size(277, 287);
             this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox13.TabIndex = 119;
             this.pictureBox13.TabStop = false;
@@ -459,10 +459,10 @@
             // pictureBox12
             // 
             this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
-            this.pictureBox12.Location = new System.Drawing.Point(68, 12394);
-            this.pictureBox12.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox12.Location = new System.Drawing.Point(91, 15254);
+            this.pictureBox12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(208, 233);
+            this.pictureBox12.Size = new System.Drawing.Size(277, 287);
             this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox12.TabIndex = 118;
             this.pictureBox12.TabStop = false;
@@ -471,10 +471,9 @@
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(316, 12231);
-            this.label16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label16.Location = new System.Drawing.Point(421, 15054);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(79, 20);
+            this.label16.Size = new System.Drawing.Size(92, 25);
             this.label16.TabIndex = 117;
             this.label16.Text = "421.00 TL";
             // 
@@ -482,10 +481,9 @@
             // 
             this.label39.AutoSize = true;
             this.label39.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label39.Location = new System.Drawing.Point(316, 12105);
-            this.label39.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label39.Location = new System.Drawing.Point(421, 14898);
             this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(260, 20);
+            this.label39.Size = new System.Drawing.Size(318, 25);
             this.label39.TabIndex = 116;
             this.label39.Text = "Author: Paul J. Deitel, Harvey Deitel";
             // 
@@ -493,10 +491,9 @@
             // 
             this.label40.AutoSize = true;
             this.label40.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label40.Location = new System.Drawing.Point(316, 12075);
-            this.label40.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label40.Location = new System.Drawing.Point(421, 14862);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(160, 20);
+            this.label40.Size = new System.Drawing.Size(194, 25);
             this.label40.TabIndex = 115;
             this.label40.Text = "C++ How to Program";
             // 
@@ -504,10 +501,9 @@
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(316, 11908);
-            this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label15.Location = new System.Drawing.Point(421, 14656);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(70, 20);
+            this.label15.Size = new System.Drawing.Size(82, 25);
             this.label15.TabIndex = 114;
             this.label15.Text = "75.00 TL";
             // 
@@ -515,10 +511,9 @@
             // 
             this.label37.AutoSize = true;
             this.label37.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label37.Location = new System.Drawing.Point(316, 11783);
-            this.label37.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label37.Location = new System.Drawing.Point(421, 14502);
             this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(204, 20);
+            this.label37.Size = new System.Drawing.Size(248, 25);
             this.label37.TabIndex = 113;
             this.label37.Text = "Author: Richard P. Feynman";
             // 
@@ -526,19 +521,18 @@
             // 
             this.label38.AutoSize = true;
             this.label38.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label38.Location = new System.Drawing.Point(316, 11753);
-            this.label38.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label38.Location = new System.Drawing.Point(421, 14465);
             this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(216, 20);
+            this.label38.Size = new System.Drawing.Size(262, 25);
             this.label38.TabIndex = 112;
             this.label38.Text = "Feynman Fizik Dersleri - Cilt 1";
             // 
             // button10
             // 
-            this.button10.Location = new System.Drawing.Point(320, 12265);
-            this.button10.Margin = new System.Windows.Forms.Padding(2);
+            this.button10.Location = new System.Drawing.Point(427, 15095);
+            this.button10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(77, 44);
+            this.button10.Size = new System.Drawing.Size(103, 54);
             this.button10.TabIndex = 111;
             this.button10.Text = "Add to Cart";
             this.button10.UseVisualStyleBackColor = true;
@@ -546,10 +540,10 @@
             // 
             // button9
             // 
-            this.button9.Location = new System.Drawing.Point(320, 11942);
-            this.button9.Margin = new System.Windows.Forms.Padding(2);
+            this.button9.Location = new System.Drawing.Point(427, 14698);
+            this.button9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(77, 44);
+            this.button9.Size = new System.Drawing.Size(103, 54);
             this.button9.TabIndex = 110;
             this.button9.Text = "Add to Cart";
             this.button9.UseVisualStyleBackColor = true;
@@ -558,10 +552,10 @@
             // pictureBox10
             // 
             this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
-            this.pictureBox10.Location = new System.Drawing.Point(68, 11753);
-            this.pictureBox10.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox10.Location = new System.Drawing.Point(91, 14465);
+            this.pictureBox10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(208, 233);
+            this.pictureBox10.Size = new System.Drawing.Size(277, 287);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox10.TabIndex = 108;
             this.pictureBox10.TabStop = false;
@@ -569,10 +563,10 @@
             // pictureBox11
             // 
             this.pictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox11.Image")));
-            this.pictureBox11.Location = new System.Drawing.Point(68, 12075);
-            this.pictureBox11.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox11.Location = new System.Drawing.Point(91, 14862);
+            this.pictureBox11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(208, 233);
+            this.pictureBox11.Size = new System.Drawing.Size(277, 287);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox11.TabIndex = 109;
             this.pictureBox11.TabStop = false;
@@ -581,10 +575,9 @@
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(316, 11598);
-            this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label14.Location = new System.Drawing.Point(421, 14274);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(88, 20);
+            this.label14.Size = new System.Drawing.Size(102, 25);
             this.label14.TabIndex = 107;
             this.label14.Text = "2811.00 TL";
             // 
@@ -592,10 +585,9 @@
             // 
             this.label35.AutoSize = true;
             this.label35.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.Location = new System.Drawing.Point(316, 11473);
-            this.label35.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label35.Location = new System.Drawing.Point(421, 14121);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(260, 20);
+            this.label35.Size = new System.Drawing.Size(318, 25);
             this.label35.TabIndex = 106;
             this.label35.Text = "Author: Paul J. Deitel, Harvey Deitel";
             // 
@@ -603,10 +595,9 @@
             // 
             this.label36.AutoSize = true;
             this.label36.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.Location = new System.Drawing.Point(316, 11443);
-            this.label36.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label36.Location = new System.Drawing.Point(421, 14084);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(193, 20);
+            this.label36.Size = new System.Drawing.Size(235, 25);
             this.label36.TabIndex = 105;
             this.label36.Text = "Visual C# How to Program";
             // 
@@ -614,10 +605,9 @@
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(316, 11273);
-            this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label13.Location = new System.Drawing.Point(421, 13874);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(70, 20);
+            this.label13.Size = new System.Drawing.Size(82, 25);
             this.label13.TabIndex = 104;
             this.label13.Text = "67.00 TL";
             // 
@@ -625,10 +615,9 @@
             // 
             this.label33.AutoSize = true;
             this.label33.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.Location = new System.Drawing.Point(316, 11151);
-            this.label33.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label33.Location = new System.Drawing.Point(421, 13724);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(204, 20);
+            this.label33.Size = new System.Drawing.Size(248, 25);
             this.label33.TabIndex = 103;
             this.label33.Text = "Author: Richard P. Feynman";
             // 
@@ -636,19 +625,18 @@
             // 
             this.label34.AutoSize = true;
             this.label34.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.Location = new System.Drawing.Point(316, 11121);
-            this.label34.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label34.Location = new System.Drawing.Point(421, 13687);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(264, 20);
+            this.label34.Size = new System.Drawing.Size(319, 25);
             this.label34.TabIndex = 102;
             this.label34.Text = "Feynman Fizik Dersleri - Alıştırmalar";
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(320, 11633);
-            this.button8.Margin = new System.Windows.Forms.Padding(2);
+            this.button8.Location = new System.Drawing.Point(427, 14318);
+            this.button8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(77, 44);
+            this.button8.Size = new System.Drawing.Size(103, 54);
             this.button8.TabIndex = 101;
             this.button8.Text = "Add to Cart";
             this.button8.UseVisualStyleBackColor = true;
@@ -656,10 +644,10 @@
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(320, 11310);
-            this.button7.Margin = new System.Windows.Forms.Padding(2);
+            this.button7.Location = new System.Drawing.Point(427, 13920);
+            this.button7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(77, 44);
+            this.button7.Size = new System.Drawing.Size(103, 54);
             this.button7.TabIndex = 100;
             this.button7.Text = "Add to Cart";
             this.button7.UseVisualStyleBackColor = true;
@@ -668,10 +656,10 @@
             // pictureBox9
             // 
             this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(68, 11121);
-            this.pictureBox9.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox9.Location = new System.Drawing.Point(91, 13687);
+            this.pictureBox9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(208, 233);
+            this.pictureBox9.Size = new System.Drawing.Size(277, 287);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox9.TabIndex = 99;
             this.pictureBox9.TabStop = false;
@@ -679,10 +667,10 @@
             // pictureBox8
             // 
             this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(68, 11443);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox8.Location = new System.Drawing.Point(91, 14084);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(208, 233);
+            this.pictureBox8.Size = new System.Drawing.Size(277, 287);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox8.TabIndex = 98;
             this.pictureBox8.TabStop = false;
@@ -691,10 +679,9 @@
             // 
             this.label47.AutoSize = true;
             this.label47.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label47.Location = new System.Drawing.Point(316, 10632);
-            this.label47.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label47.Location = new System.Drawing.Point(421, 13086);
             this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(70, 20);
+            this.label47.Size = new System.Drawing.Size(82, 25);
             this.label47.TabIndex = 97;
             this.label47.Text = "38.00 TL";
             // 
@@ -702,10 +689,9 @@
             // 
             this.label45.AutoSize = true;
             this.label45.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label45.Location = new System.Drawing.Point(316, 10497);
-            this.label45.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label45.Location = new System.Drawing.Point(421, 12919);
             this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(171, 20);
+            this.label45.Size = new System.Drawing.Size(209, 25);
             this.label45.TabIndex = 96;
             this.label45.Text = "Author: Albert Einstein";
             // 
@@ -713,30 +699,29 @@
             // 
             this.label46.AutoSize = true;
             this.label46.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label46.Location = new System.Drawing.Point(316, 10465);
-            this.label46.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label46.Location = new System.Drawing.Point(421, 12880);
             this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(135, 20);
+            this.label46.Size = new System.Drawing.Size(165, 25);
             this.label46.TabIndex = 95;
             this.label46.Text = "Göreliliğin Anlamı";
             // 
             // pictureBox7
             // 
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(68, 10800);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox7.Location = new System.Drawing.Point(91, 13292);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(208, 233);
+            this.pictureBox7.Size = new System.Drawing.Size(277, 287);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox7.TabIndex = 17;
             this.pictureBox7.TabStop = false;
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(320, 10654);
-            this.button5.Margin = new System.Windows.Forms.Padding(2);
+            this.button5.Location = new System.Drawing.Point(427, 13113);
+            this.button5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(77, 44);
+            this.button5.Size = new System.Drawing.Size(103, 54);
             this.button5.TabIndex = 28;
             this.button5.Text = "Add to Cart";
             this.button5.UseVisualStyleBackColor = true;
@@ -745,20 +730,20 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(68, 10465);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox6.Location = new System.Drawing.Point(91, 12880);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(208, 233);
+            this.pictureBox6.Size = new System.Drawing.Size(277, 287);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox6.TabIndex = 16;
             this.pictureBox6.TabStop = false;
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(320, 10989);
-            this.button6.Margin = new System.Windows.Forms.Padding(2);
+            this.button6.Location = new System.Drawing.Point(427, 13525);
+            this.button6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(77, 44);
+            this.button6.Size = new System.Drawing.Size(103, 54);
             this.button6.TabIndex = 29;
             this.button6.Text = "Add to Cart";
             this.button6.UseVisualStyleBackColor = true;
@@ -768,10 +753,9 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(316, 10966);
-            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label12.Location = new System.Drawing.Point(421, 13497);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(70, 20);
+            this.label12.Size = new System.Drawing.Size(82, 25);
             this.label12.TabIndex = 76;
             this.label12.Text = "30.00 TL";
             // 
@@ -779,10 +763,9 @@
             // 
             this.label31.AutoSize = true;
             this.label31.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.Location = new System.Drawing.Point(316, 10831);
-            this.label31.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label31.Location = new System.Drawing.Point(421, 13330);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(187, 20);
+            this.label31.Size = new System.Drawing.Size(228, 25);
             this.label31.TabIndex = 75;
             this.label31.Text = "Author: Steven Weinberg";
             // 
@@ -790,10 +773,9 @@
             // 
             this.label32.AutoSize = true;
             this.label32.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.Location = new System.Drawing.Point(316, 10800);
-            this.label32.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label32.Location = new System.Drawing.Point(421, 13292);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(241, 20);
+            this.label32.Size = new System.Drawing.Size(296, 25);
             this.label32.TabIndex = 74;
             this.label32.Text = "Temel Parçacıklar ve Fizik Yasaları";
             // 
@@ -801,10 +783,9 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(316, 10289);
-            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label10.Location = new System.Drawing.Point(421, 12663);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(79, 20);
+            this.label10.Size = new System.Drawing.Size(92, 25);
             this.label10.TabIndex = 70;
             this.label10.Text = "350.00 TL";
             // 
@@ -812,10 +793,9 @@
             // 
             this.label27.AutoSize = true;
             this.label27.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(316, 10164);
-            this.label27.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label27.Location = new System.Drawing.Point(421, 12510);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(260, 20);
+            this.label27.Size = new System.Drawing.Size(318, 25);
             this.label27.TabIndex = 69;
             this.label27.Text = "Author: Paul J. Deitel, Harvey Deitel";
             // 
@@ -823,10 +803,9 @@
             // 
             this.label28.AutoSize = true;
             this.label28.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(316, 10134);
-            this.label28.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label28.Location = new System.Drawing.Point(421, 12473);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(347, 20);
+            this.label28.Size = new System.Drawing.Size(422, 25);
             this.label28.TabIndex = 68;
             this.label28.Text = "C How to Program: With an Introduction to C++";
             // 
@@ -834,10 +813,9 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(316, 9965);
-            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label9.Location = new System.Drawing.Point(421, 12265);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(88, 20);
+            this.label9.Size = new System.Drawing.Size(102, 25);
             this.label9.TabIndex = 67;
             this.label9.Text = "1885.50 TL";
             // 
@@ -845,10 +823,9 @@
             // 
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(316, 9840);
-            this.label25.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label25.Location = new System.Drawing.Point(421, 12111);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(385, 20);
+            this.label25.Size = new System.Drawing.Size(472, 25);
             this.label25.TabIndex = 66;
             this.label25.Text = "Author: Paul J. Deitel, Harvey Deitel, Harvey M. Deitel";
             // 
@@ -856,10 +833,9 @@
             // 
             this.label26.AutoSize = true;
             this.label26.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(316, 9810);
-            this.label26.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label26.Location = new System.Drawing.Point(421, 12074);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(393, 20);
+            this.label26.Size = new System.Drawing.Size(482, 25);
             this.label26.TabIndex = 65;
             this.label26.Text = "Intro to Python for Computer Science and Data Science";
             // 
@@ -867,10 +843,9 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(316, 9639);
-            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label8.Location = new System.Drawing.Point(421, 11863);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(70, 20);
+            this.label8.Size = new System.Drawing.Size(82, 25);
             this.label8.TabIndex = 64;
             this.label8.Text = "55.50 TL";
             // 
@@ -878,10 +853,9 @@
             // 
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(316, 9514);
-            this.label23.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label23.Location = new System.Drawing.Point(421, 11710);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(204, 20);
+            this.label23.Size = new System.Drawing.Size(248, 25);
             this.label23.TabIndex = 63;
             this.label23.Text = "Author: Richard P. Feynman";
             // 
@@ -889,10 +863,9 @@
             // 
             this.label24.AutoSize = true;
             this.label24.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(316, 9484);
-            this.label24.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label24.Location = new System.Drawing.Point(421, 11673);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(296, 20);
+            this.label24.Size = new System.Drawing.Size(360, 25);
             this.label24.TabIndex = 62;
             this.label24.Text = "Eminim Şaka Yapıyorsunuz Bay Feynman";
             // 
@@ -900,10 +873,9 @@
             // 
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(316, 9293);
-            this.label22.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label22.Location = new System.Drawing.Point(421, 11438);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(70, 20);
+            this.label22.Size = new System.Drawing.Size(82, 25);
             this.label22.TabIndex = 61;
             this.label22.Text = "22.50 TL";
             // 
@@ -911,10 +883,9 @@
             // 
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(316, 9167);
-            this.label21.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label21.Location = new System.Drawing.Point(421, 11282);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(141, 20);
+            this.label21.Size = new System.Drawing.Size(173, 25);
             this.label21.TabIndex = 60;
             this.label21.Text = "Author: Carl Sagan";
             // 
@@ -922,19 +893,18 @@
             // 
             this.label48.AutoSize = true;
             this.label48.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label48.Location = new System.Drawing.Point(316, 9137);
-            this.label48.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label48.Location = new System.Drawing.Point(421, 11246);
             this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(253, 20);
+            this.label48.Size = new System.Drawing.Size(308, 25);
             this.label48.TabIndex = 48;
             this.label48.Text = "Kozmos: Evrenin ve Yaşamın Sırları";
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(320, 10323);
-            this.button4.Margin = new System.Windows.Forms.Padding(2);
+            this.button4.Location = new System.Drawing.Point(427, 12705);
+            this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(77, 44);
+            this.button4.Size = new System.Drawing.Size(103, 54);
             this.button4.TabIndex = 27;
             this.button4.Text = "Add to Cart";
             this.button4.UseVisualStyleBackColor = true;
@@ -942,10 +912,10 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(320, 9988);
-            this.button3.Margin = new System.Windows.Forms.Padding(2);
+            this.button3.Location = new System.Drawing.Point(427, 12293);
+            this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(77, 44);
+            this.button3.Size = new System.Drawing.Size(103, 54);
             this.button3.TabIndex = 26;
             this.button3.Text = "Add to Cart";
             this.button3.UseVisualStyleBackColor = true;
@@ -953,10 +923,10 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(320, 9661);
-            this.button2.Margin = new System.Windows.Forms.Padding(2);
+            this.button2.Location = new System.Drawing.Point(427, 11890);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(77, 44);
+            this.button2.Size = new System.Drawing.Size(103, 54);
             this.button2.TabIndex = 25;
             this.button2.Text = "Add to Cart";
             this.button2.UseVisualStyleBackColor = true;
@@ -964,10 +934,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(320, 9315);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Location = new System.Drawing.Point(427, 11465);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(77, 44);
+            this.button1.Size = new System.Drawing.Size(103, 54);
             this.button1.TabIndex = 24;
             this.button1.Text = "Add to Cart";
             this.button1.UseVisualStyleBackColor = true;
@@ -976,10 +946,10 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(68, 9810);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox5.Location = new System.Drawing.Point(91, 12074);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(208, 233);
+            this.pictureBox5.Size = new System.Drawing.Size(277, 287);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 15;
             this.pictureBox5.TabStop = false;
@@ -987,10 +957,10 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(68, 10134);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox4.Location = new System.Drawing.Point(91, 12473);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(208, 233);
+            this.pictureBox4.Size = new System.Drawing.Size(277, 287);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 14;
             this.pictureBox4.TabStop = false;
@@ -998,10 +968,10 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(68, 9480);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox3.Location = new System.Drawing.Point(91, 11668);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(208, 233);
+            this.pictureBox3.Size = new System.Drawing.Size(277, 287);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 13;
             this.pictureBox3.TabStop = false;
@@ -1009,10 +979,10 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(68, 9137);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox2.Location = new System.Drawing.Point(91, 11246);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(208, 233);
+            this.pictureBox2.Size = new System.Drawing.Size(277, 287);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 12;
             this.pictureBox2.TabStop = false;
@@ -1020,33 +990,31 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(49, 630);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label6.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(70, 786);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(127, 25);
+            this.label6.Size = new System.Drawing.Size(141, 31);
             this.label6.TabIndex = 4;
             this.label6.Text = "Version 1.0.0";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(16, 601);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Location = new System.Drawing.Point(50, 740);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(191, 25);
+            this.label5.Size = new System.Drawing.Size(185, 31);
             this.label5.TabIndex = 3;
-            this.label5.Text = "awesome bookstore";
+            this.label5.Text = "Basic Bookstore";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(94, 32);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(125, 39);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(104, 25);
+            this.label2.Size = new System.Drawing.Size(125, 31);
             this.label2.TabIndex = 2;
             this.label2.Text = "WELCOME";
             // 
@@ -1054,20 +1022,19 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(95, 63);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(127, 78);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 19);
+            this.label1.Size = new System.Drawing.Size(54, 23);
             this.label1.TabIndex = 1;
             this.label1.Text = "name";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(9, 25);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 31);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(64, 57);
+            this.pictureBox1.Size = new System.Drawing.Size(85, 70);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -1076,10 +1043,10 @@
             // 
             this.pictureBox14.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox14.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox14.Image")));
-            this.pictureBox14.Location = new System.Drawing.Point(1162, 18);
-            this.pictureBox14.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox14.Location = new System.Drawing.Point(1549, 22);
+            this.pictureBox14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(75, 41);
+            this.pictureBox14.Size = new System.Drawing.Size(100, 50);
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox14.TabIndex = 2;
             this.pictureBox14.TabStop = false;
@@ -1090,10 +1057,9 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label3.Location = new System.Drawing.Point(1241, 25);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(1655, 31);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(60, 25);
+            this.label3.Size = new System.Drawing.Size(71, 31);
             this.label3.TabIndex = 3;
             this.label3.Text = "CART";
             // 
@@ -1101,20 +1067,19 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(1409, 36);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Location = new System.Drawing.Point(1879, 44);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(23, 25);
+            this.label4.Size = new System.Drawing.Size(27, 31);
             this.label4.TabIndex = 4;
             this.label4.Text = "0";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // button13
             // 
-            this.button13.Location = new System.Drawing.Point(1192, 609);
-            this.button13.Margin = new System.Windows.Forms.Padding(2);
+            this.button13.Location = new System.Drawing.Point(1589, 750);
+            this.button13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(100, 46);
+            this.button13.Size = new System.Drawing.Size(133, 57);
             this.button13.TabIndex = 36;
             this.button13.Text = "Remove \r\nSelected book";
             this.button13.UseVisualStyleBackColor = true;
@@ -1125,10 +1090,9 @@
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label19.Location = new System.Drawing.Point(1169, 743);
-            this.label19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label19.Location = new System.Drawing.Point(1559, 914);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(83, 25);
+            this.label19.Size = new System.Drawing.Size(99, 31);
             this.label19.TabIndex = 6;
             this.label19.Text = "TOTAL : ";
             this.label19.Click += new System.EventHandler(this.label19_Click);
@@ -1137,10 +1101,9 @@
             // 
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(2, 0);
-            this.label20.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label20.Location = new System.Drawing.Point(3, 0);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(23, 25);
+            this.label20.Size = new System.Drawing.Size(27, 31);
             this.label20.TabIndex = 7;
             this.label20.Text = "0";
             this.label20.Click += new System.EventHandler(this.label20_Click);
@@ -1149,10 +1112,9 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(530, -21);
-            this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label11.Location = new System.Drawing.Point(707, -26);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(70, 20);
+            this.label11.Size = new System.Drawing.Size(82, 25);
             this.label11.TabIndex = 73;
             this.label11.Text = "38.00 TL";
             // 
@@ -1160,10 +1122,9 @@
             // 
             this.label29.AutoSize = true;
             this.label29.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(530, -146);
-            this.label29.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label29.Location = new System.Drawing.Point(707, -180);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(171, 20);
+            this.label29.Size = new System.Drawing.Size(209, 25);
             this.label29.TabIndex = 72;
             this.label29.Text = "Author: Albert Einstein";
             // 
@@ -1171,19 +1132,18 @@
             // 
             this.label30.AutoSize = true;
             this.label30.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.Location = new System.Drawing.Point(530, -176);
-            this.label30.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label30.Location = new System.Drawing.Point(707, -217);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(135, 20);
+            this.label30.Size = new System.Drawing.Size(165, 25);
             this.label30.TabIndex = 71;
             this.label30.Text = "Göreliliğin Anlamı";
             // 
             // button25
             // 
-            this.button25.Location = new System.Drawing.Point(1316, 609);
-            this.button25.Margin = new System.Windows.Forms.Padding(2);
+            this.button25.Location = new System.Drawing.Point(1755, 750);
+            this.button25.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(100, 46);
+            this.button25.Size = new System.Drawing.Size(133, 57);
             this.button25.TabIndex = 8;
             this.button25.Text = "Save in excel";
             this.button25.UseVisualStyleBackColor = true;
@@ -1193,10 +1153,10 @@
             // 
             this.button27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.button27.FlatAppearance.BorderSize = 0;
-            this.button27.Location = new System.Drawing.Point(1253, 674);
-            this.button27.Margin = new System.Windows.Forms.Padding(2);
+            this.button27.Location = new System.Drawing.Point(1671, 830);
+            this.button27.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(100, 46);
+            this.button27.Size = new System.Drawing.Size(133, 57);
             this.button27.TabIndex = 37;
             this.button27.Text = "BUY";
             this.button27.UseVisualStyleBackColor = false;
@@ -1208,12 +1168,12 @@
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
             this.Column2});
-            this.dataGridView1.Location = new System.Drawing.Point(1169, 63);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
+            this.dataGridView1.Location = new System.Drawing.Point(1559, 78);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(265, 362);
+            this.dataGridView1.Size = new System.Drawing.Size(353, 446);
             this.dataGridView1.TabIndex = 74;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -1291,10 +1251,10 @@
             this.panel3.Controls.Add(this.pictureBox25);
             this.panel3.Controls.Add(this.pictureBox26);
             this.panel3.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.panel3.Location = new System.Drawing.Point(252, -60);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2);
+            this.panel3.Location = new System.Drawing.Point(336, -74);
+            this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(905, 931);
+            this.panel3.Size = new System.Drawing.Size(1207, 1146);
             this.panel3.TabIndex = 75;
             this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
@@ -1302,10 +1262,9 @@
             // 
             this.label52.AutoSize = true;
             this.label52.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label52.Location = new System.Drawing.Point(316, 3451);
-            this.label52.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label52.Location = new System.Drawing.Point(421, 4247);
             this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(79, 20);
+            this.label52.Size = new System.Drawing.Size(92, 25);
             this.label52.TabIndex = 124;
             this.label52.Text = "312.00 TL";
             // 
@@ -1313,10 +1272,9 @@
             // 
             this.label53.AutoSize = true;
             this.label53.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label53.Location = new System.Drawing.Point(316, 3405);
-            this.label53.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label53.Location = new System.Drawing.Point(421, 4191);
             this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(196, 20);
+            this.label53.Size = new System.Drawing.Size(239, 25);
             this.label53.TabIndex = 123;
             this.label53.Text = "Author:  Delilah S. Dawson";
             // 
@@ -1324,19 +1282,18 @@
             // 
             this.label54.AutoSize = true;
             this.label54.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label54.Location = new System.Drawing.Point(316, 3375);
-            this.label54.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label54.Location = new System.Drawing.Point(421, 4154);
             this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(139, 20);
+            this.label54.Size = new System.Drawing.Size(168, 25);
             this.label54.TabIndex = 122;
             this.label54.Text = "Star Wars: Phasma";
             // 
             // button15
             // 
-            this.button15.Location = new System.Drawing.Point(320, 3478);
-            this.button15.Margin = new System.Windows.Forms.Padding(2);
+            this.button15.Location = new System.Drawing.Point(427, 4281);
+            this.button15.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(77, 44);
+            this.button15.Size = new System.Drawing.Size(103, 54);
             this.button15.TabIndex = 120;
             this.button15.Text = "Add to Cart";
             this.button15.UseVisualStyleBackColor = true;
@@ -1345,10 +1302,10 @@
             // pictureBox16
             // 
             this.pictureBox16.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox16.Image")));
-            this.pictureBox16.Location = new System.Drawing.Point(68, 3375);
-            this.pictureBox16.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox16.Location = new System.Drawing.Point(91, 4154);
+            this.pictureBox16.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(208, 233);
+            this.pictureBox16.Size = new System.Drawing.Size(277, 287);
             this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox16.TabIndex = 118;
             this.pictureBox16.TabStop = false;
@@ -1357,10 +1314,9 @@
             // 
             this.label55.AutoSize = true;
             this.label55.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label55.Location = new System.Drawing.Point(316, 3212);
-            this.label55.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label55.Location = new System.Drawing.Point(421, 3953);
             this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(79, 20);
+            this.label55.Size = new System.Drawing.Size(92, 25);
             this.label55.TabIndex = 117;
             this.label55.Text = "421.00 TL";
             // 
@@ -1368,10 +1324,9 @@
             // 
             this.label56.AutoSize = true;
             this.label56.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label56.Location = new System.Drawing.Point(316, 3087);
-            this.label56.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label56.Location = new System.Drawing.Point(421, 3799);
             this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(260, 20);
+            this.label56.Size = new System.Drawing.Size(318, 25);
             this.label56.TabIndex = 116;
             this.label56.Text = "Author: Paul J. Deitel, Harvey Deitel";
             // 
@@ -1379,10 +1334,9 @@
             // 
             this.label57.AutoSize = true;
             this.label57.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label57.Location = new System.Drawing.Point(316, 3057);
-            this.label57.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label57.Location = new System.Drawing.Point(421, 3762);
             this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(160, 20);
+            this.label57.Size = new System.Drawing.Size(194, 25);
             this.label57.TabIndex = 115;
             this.label57.Text = "C++ How to Program";
             // 
@@ -1390,10 +1344,9 @@
             // 
             this.label58.AutoSize = true;
             this.label58.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label58.Location = new System.Drawing.Point(316, 2889);
-            this.label58.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label58.Location = new System.Drawing.Point(421, 3556);
             this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(70, 20);
+            this.label58.Size = new System.Drawing.Size(82, 25);
             this.label58.TabIndex = 114;
             this.label58.Text = "75.00 TL";
             // 
@@ -1401,10 +1354,9 @@
             // 
             this.label59.AutoSize = true;
             this.label59.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label59.Location = new System.Drawing.Point(316, 2764);
-            this.label59.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label59.Location = new System.Drawing.Point(421, 3402);
             this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(204, 20);
+            this.label59.Size = new System.Drawing.Size(248, 25);
             this.label59.TabIndex = 113;
             this.label59.Text = "Author: Richard P. Feynman";
             // 
@@ -1412,19 +1364,18 @@
             // 
             this.label60.AutoSize = true;
             this.label60.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label60.Location = new System.Drawing.Point(316, 2734);
-            this.label60.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label60.Location = new System.Drawing.Point(421, 3365);
             this.label60.Name = "label60";
-            this.label60.Size = new System.Drawing.Size(216, 20);
+            this.label60.Size = new System.Drawing.Size(262, 25);
             this.label60.TabIndex = 112;
             this.label60.Text = "Feynman Fizik Dersleri - Cilt 1";
             // 
             // button16
             // 
-            this.button16.Location = new System.Drawing.Point(320, 3246);
-            this.button16.Margin = new System.Windows.Forms.Padding(2);
+            this.button16.Location = new System.Drawing.Point(427, 3995);
+            this.button16.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(77, 44);
+            this.button16.Size = new System.Drawing.Size(103, 54);
             this.button16.TabIndex = 111;
             this.button16.Text = "Add to Cart";
             this.button16.UseVisualStyleBackColor = true;
@@ -1432,10 +1383,10 @@
             // 
             // button17
             // 
-            this.button17.Location = new System.Drawing.Point(320, 2923);
-            this.button17.Margin = new System.Windows.Forms.Padding(2);
+            this.button17.Location = new System.Drawing.Point(427, 3598);
+            this.button17.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(77, 44);
+            this.button17.Size = new System.Drawing.Size(103, 54);
             this.button17.TabIndex = 110;
             this.button17.Text = "Add to Cart";
             this.button17.UseVisualStyleBackColor = true;
@@ -1444,10 +1395,10 @@
             // pictureBox17
             // 
             this.pictureBox17.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox17.Image")));
-            this.pictureBox17.Location = new System.Drawing.Point(68, 2734);
-            this.pictureBox17.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox17.Location = new System.Drawing.Point(91, 3365);
+            this.pictureBox17.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(208, 233);
+            this.pictureBox17.Size = new System.Drawing.Size(277, 287);
             this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox17.TabIndex = 108;
             this.pictureBox17.TabStop = false;
@@ -1455,10 +1406,10 @@
             // pictureBox18
             // 
             this.pictureBox18.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox18.Image")));
-            this.pictureBox18.Location = new System.Drawing.Point(68, 3057);
-            this.pictureBox18.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox18.Location = new System.Drawing.Point(91, 3762);
+            this.pictureBox18.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(208, 233);
+            this.pictureBox18.Size = new System.Drawing.Size(277, 287);
             this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox18.TabIndex = 109;
             this.pictureBox18.TabStop = false;
@@ -1467,10 +1418,9 @@
             // 
             this.label61.AutoSize = true;
             this.label61.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label61.Location = new System.Drawing.Point(316, 2580);
-            this.label61.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label61.Location = new System.Drawing.Point(421, 3175);
             this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(88, 20);
+            this.label61.Size = new System.Drawing.Size(102, 25);
             this.label61.TabIndex = 107;
             this.label61.Text = "2811.00 TL";
             // 
@@ -1478,10 +1428,9 @@
             // 
             this.label62.AutoSize = true;
             this.label62.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label62.Location = new System.Drawing.Point(316, 2455);
-            this.label62.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label62.Location = new System.Drawing.Point(421, 3022);
             this.label62.Name = "label62";
-            this.label62.Size = new System.Drawing.Size(260, 20);
+            this.label62.Size = new System.Drawing.Size(318, 25);
             this.label62.TabIndex = 106;
             this.label62.Text = "Author: Paul J. Deitel, Harvey Deitel";
             // 
@@ -1489,10 +1438,9 @@
             // 
             this.label63.AutoSize = true;
             this.label63.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label63.Location = new System.Drawing.Point(316, 2424);
-            this.label63.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label63.Location = new System.Drawing.Point(421, 2983);
             this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(193, 20);
+            this.label63.Size = new System.Drawing.Size(235, 25);
             this.label63.TabIndex = 105;
             this.label63.Text = "Visual C# How to Program";
             // 
@@ -1500,10 +1448,9 @@
             // 
             this.label64.AutoSize = true;
             this.label64.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label64.Location = new System.Drawing.Point(316, 2255);
-            this.label64.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label64.Location = new System.Drawing.Point(421, 2775);
             this.label64.Name = "label64";
-            this.label64.Size = new System.Drawing.Size(70, 20);
+            this.label64.Size = new System.Drawing.Size(82, 25);
             this.label64.TabIndex = 104;
             this.label64.Text = "67.00 TL";
             // 
@@ -1511,10 +1458,9 @@
             // 
             this.label65.AutoSize = true;
             this.label65.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label65.Location = new System.Drawing.Point(316, 2132);
-            this.label65.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label65.Location = new System.Drawing.Point(421, 2624);
             this.label65.Name = "label65";
-            this.label65.Size = new System.Drawing.Size(204, 20);
+            this.label65.Size = new System.Drawing.Size(248, 25);
             this.label65.TabIndex = 103;
             this.label65.Text = "Author: Richard P. Feynman";
             // 
@@ -1522,19 +1468,18 @@
             // 
             this.label66.AutoSize = true;
             this.label66.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label66.Location = new System.Drawing.Point(316, 2102);
-            this.label66.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label66.Location = new System.Drawing.Point(421, 2587);
             this.label66.Name = "label66";
-            this.label66.Size = new System.Drawing.Size(264, 20);
+            this.label66.Size = new System.Drawing.Size(319, 25);
             this.label66.TabIndex = 102;
             this.label66.Text = "Feynman Fizik Dersleri - Alıştırmalar";
             // 
             // button18
             // 
-            this.button18.Location = new System.Drawing.Point(320, 2614);
-            this.button18.Margin = new System.Windows.Forms.Padding(2);
+            this.button18.Location = new System.Drawing.Point(427, 3217);
+            this.button18.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(77, 44);
+            this.button18.Size = new System.Drawing.Size(103, 54);
             this.button18.TabIndex = 101;
             this.button18.Text = "Add to Cart";
             this.button18.UseVisualStyleBackColor = true;
@@ -1542,10 +1487,10 @@
             // 
             // button19
             // 
-            this.button19.Location = new System.Drawing.Point(320, 2291);
-            this.button19.Margin = new System.Windows.Forms.Padding(2);
+            this.button19.Location = new System.Drawing.Point(427, 2820);
+            this.button19.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(77, 44);
+            this.button19.Size = new System.Drawing.Size(103, 54);
             this.button19.TabIndex = 100;
             this.button19.Text = "Add to Cart";
             this.button19.UseVisualStyleBackColor = true;
@@ -1554,10 +1499,10 @@
             // pictureBox19
             // 
             this.pictureBox19.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox19.Image")));
-            this.pictureBox19.Location = new System.Drawing.Point(68, 2102);
-            this.pictureBox19.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox19.Location = new System.Drawing.Point(91, 2587);
+            this.pictureBox19.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(208, 233);
+            this.pictureBox19.Size = new System.Drawing.Size(277, 287);
             this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox19.TabIndex = 99;
             this.pictureBox19.TabStop = false;
@@ -1565,10 +1510,10 @@
             // pictureBox20
             // 
             this.pictureBox20.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox20.Image")));
-            this.pictureBox20.Location = new System.Drawing.Point(68, 2424);
-            this.pictureBox20.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox20.Location = new System.Drawing.Point(91, 2983);
+            this.pictureBox20.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(208, 233);
+            this.pictureBox20.Size = new System.Drawing.Size(277, 287);
             this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox20.TabIndex = 98;
             this.pictureBox20.TabStop = false;
@@ -1577,10 +1522,9 @@
             // 
             this.label67.AutoSize = true;
             this.label67.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label67.Location = new System.Drawing.Point(316, 1613);
-            this.label67.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label67.Location = new System.Drawing.Point(421, 1985);
             this.label67.Name = "label67";
-            this.label67.Size = new System.Drawing.Size(70, 20);
+            this.label67.Size = new System.Drawing.Size(82, 25);
             this.label67.TabIndex = 97;
             this.label67.Text = "38.00 TL";
             // 
@@ -1588,10 +1532,9 @@
             // 
             this.label68.AutoSize = true;
             this.label68.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label68.Location = new System.Drawing.Point(316, 1478);
-            this.label68.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label68.Location = new System.Drawing.Point(421, 1819);
             this.label68.Name = "label68";
-            this.label68.Size = new System.Drawing.Size(171, 20);
+            this.label68.Size = new System.Drawing.Size(209, 25);
             this.label68.TabIndex = 96;
             this.label68.Text = "Author: Albert Einstein";
             // 
@@ -1599,30 +1542,29 @@
             // 
             this.label69.AutoSize = true;
             this.label69.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label69.Location = new System.Drawing.Point(316, 1446);
-            this.label69.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label69.Location = new System.Drawing.Point(421, 1780);
             this.label69.Name = "label69";
-            this.label69.Size = new System.Drawing.Size(135, 20);
+            this.label69.Size = new System.Drawing.Size(165, 25);
             this.label69.TabIndex = 95;
             this.label69.Text = "Göreliliğin Anlamı";
             // 
             // pictureBox21
             // 
             this.pictureBox21.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox21.Image")));
-            this.pictureBox21.Location = new System.Drawing.Point(68, 1781);
-            this.pictureBox21.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox21.Location = new System.Drawing.Point(91, 2192);
+            this.pictureBox21.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox21.Name = "pictureBox21";
-            this.pictureBox21.Size = new System.Drawing.Size(208, 233);
+            this.pictureBox21.Size = new System.Drawing.Size(277, 287);
             this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox21.TabIndex = 17;
             this.pictureBox21.TabStop = false;
             // 
             // button20
             // 
-            this.button20.Location = new System.Drawing.Point(320, 1636);
-            this.button20.Margin = new System.Windows.Forms.Padding(2);
+            this.button20.Location = new System.Drawing.Point(427, 2014);
+            this.button20.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(77, 44);
+            this.button20.Size = new System.Drawing.Size(103, 54);
             this.button20.TabIndex = 28;
             this.button20.Text = "Add to Cart";
             this.button20.UseVisualStyleBackColor = true;
@@ -1631,20 +1573,20 @@
             // pictureBox22
             // 
             this.pictureBox22.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox22.Image")));
-            this.pictureBox22.Location = new System.Drawing.Point(68, 1446);
-            this.pictureBox22.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox22.Location = new System.Drawing.Point(91, 1780);
+            this.pictureBox22.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(208, 233);
+            this.pictureBox22.Size = new System.Drawing.Size(277, 287);
             this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox22.TabIndex = 16;
             this.pictureBox22.TabStop = false;
             // 
             // button21
             // 
-            this.button21.Location = new System.Drawing.Point(320, 1970);
-            this.button21.Margin = new System.Windows.Forms.Padding(2);
+            this.button21.Location = new System.Drawing.Point(427, 2425);
+            this.button21.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(77, 44);
+            this.button21.Size = new System.Drawing.Size(103, 54);
             this.button21.TabIndex = 29;
             this.button21.Text = "Add to Cart";
             this.button21.UseVisualStyleBackColor = true;
@@ -1654,10 +1596,9 @@
             // 
             this.label70.AutoSize = true;
             this.label70.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label70.Location = new System.Drawing.Point(316, 1948);
-            this.label70.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label70.Location = new System.Drawing.Point(421, 2398);
             this.label70.Name = "label70";
-            this.label70.Size = new System.Drawing.Size(70, 20);
+            this.label70.Size = new System.Drawing.Size(82, 25);
             this.label70.TabIndex = 76;
             this.label70.Text = "30.00 TL";
             // 
@@ -1665,10 +1606,9 @@
             // 
             this.label71.AutoSize = true;
             this.label71.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label71.Location = new System.Drawing.Point(316, 1813);
-            this.label71.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label71.Location = new System.Drawing.Point(421, 2231);
             this.label71.Name = "label71";
-            this.label71.Size = new System.Drawing.Size(187, 20);
+            this.label71.Size = new System.Drawing.Size(228, 25);
             this.label71.TabIndex = 75;
             this.label71.Text = "Author: Steven Weinberg";
             // 
@@ -1676,10 +1616,9 @@
             // 
             this.label72.AutoSize = true;
             this.label72.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label72.Location = new System.Drawing.Point(316, 1781);
-            this.label72.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label72.Location = new System.Drawing.Point(421, 2192);
             this.label72.Name = "label72";
-            this.label72.Size = new System.Drawing.Size(241, 20);
+            this.label72.Size = new System.Drawing.Size(296, 25);
             this.label72.TabIndex = 74;
             this.label72.Text = "Temel Parçacıklar ve Fizik Yasaları";
             // 
@@ -1687,10 +1626,9 @@
             // 
             this.label73.AutoSize = true;
             this.label73.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label73.Location = new System.Drawing.Point(316, 1270);
-            this.label73.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label73.Location = new System.Drawing.Point(421, 1563);
             this.label73.Name = "label73";
-            this.label73.Size = new System.Drawing.Size(79, 20);
+            this.label73.Size = new System.Drawing.Size(92, 25);
             this.label73.TabIndex = 70;
             this.label73.Text = "350.00 TL";
             // 
@@ -1698,10 +1636,9 @@
             // 
             this.label74.AutoSize = true;
             this.label74.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label74.Location = new System.Drawing.Point(316, 1145);
-            this.label74.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label74.Location = new System.Drawing.Point(421, 1409);
             this.label74.Name = "label74";
-            this.label74.Size = new System.Drawing.Size(260, 20);
+            this.label74.Size = new System.Drawing.Size(318, 25);
             this.label74.TabIndex = 69;
             this.label74.Text = "Author: Paul J. Deitel, Harvey Deitel";
             // 
@@ -1709,10 +1646,9 @@
             // 
             this.label75.AutoSize = true;
             this.label75.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label75.Location = new System.Drawing.Point(316, 1115);
-            this.label75.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label75.Location = new System.Drawing.Point(421, 1372);
             this.label75.Name = "label75";
-            this.label75.Size = new System.Drawing.Size(347, 20);
+            this.label75.Size = new System.Drawing.Size(422, 25);
             this.label75.TabIndex = 68;
             this.label75.Text = "C How to Program: With an Introduction to C++";
             // 
@@ -1720,10 +1656,9 @@
             // 
             this.label76.AutoSize = true;
             this.label76.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label76.Location = new System.Drawing.Point(316, 947);
-            this.label76.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label76.Location = new System.Drawing.Point(421, 1166);
             this.label76.Name = "label76";
-            this.label76.Size = new System.Drawing.Size(88, 20);
+            this.label76.Size = new System.Drawing.Size(102, 25);
             this.label76.TabIndex = 67;
             this.label76.Text = "1885.50 TL";
             // 
@@ -1731,10 +1666,9 @@
             // 
             this.label77.AutoSize = true;
             this.label77.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label77.Location = new System.Drawing.Point(316, 821);
-            this.label77.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label77.Location = new System.Drawing.Point(421, 1010);
             this.label77.Name = "label77";
-            this.label77.Size = new System.Drawing.Size(385, 20);
+            this.label77.Size = new System.Drawing.Size(472, 25);
             this.label77.TabIndex = 66;
             this.label77.Text = "Author: Paul J. Deitel, Harvey Deitel, Harvey M. Deitel";
             // 
@@ -1742,10 +1676,9 @@
             // 
             this.label78.AutoSize = true;
             this.label78.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label78.Location = new System.Drawing.Point(316, 791);
-            this.label78.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label78.Location = new System.Drawing.Point(421, 974);
             this.label78.Name = "label78";
-            this.label78.Size = new System.Drawing.Size(393, 20);
+            this.label78.Size = new System.Drawing.Size(482, 25);
             this.label78.TabIndex = 65;
             this.label78.Text = "Intro to Python for Computer Science and Data Science";
             // 
@@ -1753,10 +1686,9 @@
             // 
             this.label79.AutoSize = true;
             this.label79.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label79.Location = new System.Drawing.Point(316, 620);
-            this.label79.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label79.Location = new System.Drawing.Point(421, 763);
             this.label79.Name = "label79";
-            this.label79.Size = new System.Drawing.Size(70, 20);
+            this.label79.Size = new System.Drawing.Size(82, 25);
             this.label79.TabIndex = 64;
             this.label79.Text = "55.50 TL";
             // 
@@ -1764,10 +1696,9 @@
             // 
             this.label80.AutoSize = true;
             this.label80.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label80.Location = new System.Drawing.Point(316, 495);
-            this.label80.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label80.Location = new System.Drawing.Point(421, 609);
             this.label80.Name = "label80";
-            this.label80.Size = new System.Drawing.Size(204, 20);
+            this.label80.Size = new System.Drawing.Size(248, 25);
             this.label80.TabIndex = 63;
             this.label80.Text = "Author: Richard P. Feynman";
             // 
@@ -1775,10 +1706,9 @@
             // 
             this.label81.AutoSize = true;
             this.label81.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label81.Location = new System.Drawing.Point(316, 465);
-            this.label81.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label81.Location = new System.Drawing.Point(421, 572);
             this.label81.Name = "label81";
-            this.label81.Size = new System.Drawing.Size(296, 20);
+            this.label81.Size = new System.Drawing.Size(360, 25);
             this.label81.TabIndex = 62;
             this.label81.Text = "Eminim Şaka Yapıyorsunuz Bay Feynman";
             // 
@@ -1786,10 +1716,9 @@
             // 
             this.label82.AutoSize = true;
             this.label82.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label82.Location = new System.Drawing.Point(316, 274);
-            this.label82.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label82.Location = new System.Drawing.Point(421, 337);
             this.label82.Name = "label82";
-            this.label82.Size = new System.Drawing.Size(70, 20);
+            this.label82.Size = new System.Drawing.Size(82, 25);
             this.label82.TabIndex = 61;
             this.label82.Text = "22.50 TL";
             // 
@@ -1797,10 +1726,9 @@
             // 
             this.label83.AutoSize = true;
             this.label83.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label83.Location = new System.Drawing.Point(316, 149);
-            this.label83.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label83.Location = new System.Drawing.Point(421, 183);
             this.label83.Name = "label83";
-            this.label83.Size = new System.Drawing.Size(141, 20);
+            this.label83.Size = new System.Drawing.Size(173, 25);
             this.label83.TabIndex = 60;
             this.label83.Text = "Author: Carl Sagan";
             // 
@@ -1808,19 +1736,18 @@
             // 
             this.label84.AutoSize = true;
             this.label84.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label84.Location = new System.Drawing.Point(316, 119);
-            this.label84.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label84.Location = new System.Drawing.Point(421, 146);
             this.label84.Name = "label84";
-            this.label84.Size = new System.Drawing.Size(253, 20);
+            this.label84.Size = new System.Drawing.Size(308, 25);
             this.label84.TabIndex = 48;
             this.label84.Text = "Kozmos: Evrenin ve Yaşamın Sırları";
             // 
             // button22
             // 
-            this.button22.Location = new System.Drawing.Point(320, 1304);
-            this.button22.Margin = new System.Windows.Forms.Padding(2);
+            this.button22.Location = new System.Drawing.Point(427, 1605);
+            this.button22.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(77, 44);
+            this.button22.Size = new System.Drawing.Size(103, 54);
             this.button22.TabIndex = 27;
             this.button22.Text = "Add to Cart";
             this.button22.UseVisualStyleBackColor = true;
@@ -1828,10 +1755,10 @@
             // 
             // button23
             // 
-            this.button23.Location = new System.Drawing.Point(320, 969);
-            this.button23.Margin = new System.Windows.Forms.Padding(2);
+            this.button23.Location = new System.Drawing.Point(427, 1193);
+            this.button23.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(77, 44);
+            this.button23.Size = new System.Drawing.Size(103, 54);
             this.button23.TabIndex = 26;
             this.button23.Text = "Add to Cart";
             this.button23.UseVisualStyleBackColor = true;
@@ -1839,10 +1766,10 @@
             // 
             // button24
             // 
-            this.button24.Location = new System.Drawing.Point(320, 643);
-            this.button24.Margin = new System.Windows.Forms.Padding(2);
+            this.button24.Location = new System.Drawing.Point(427, 791);
+            this.button24.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(77, 44);
+            this.button24.Size = new System.Drawing.Size(103, 54);
             this.button24.TabIndex = 25;
             this.button24.Text = "Add to Cart";
             this.button24.UseVisualStyleBackColor = true;
@@ -1850,10 +1777,10 @@
             // 
             // button28
             // 
-            this.button28.Location = new System.Drawing.Point(320, 297);
-            this.button28.Margin = new System.Windows.Forms.Padding(2);
+            this.button28.Location = new System.Drawing.Point(427, 366);
+            this.button28.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(77, 44);
+            this.button28.Size = new System.Drawing.Size(103, 54);
             this.button28.TabIndex = 24;
             this.button28.Text = "Add to Cart";
             this.button28.UseVisualStyleBackColor = true;
@@ -1862,10 +1789,10 @@
             // pictureBox23
             // 
             this.pictureBox23.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox23.Image")));
-            this.pictureBox23.Location = new System.Drawing.Point(68, 791);
-            this.pictureBox23.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox23.Location = new System.Drawing.Point(91, 974);
+            this.pictureBox23.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox23.Name = "pictureBox23";
-            this.pictureBox23.Size = new System.Drawing.Size(208, 233);
+            this.pictureBox23.Size = new System.Drawing.Size(277, 287);
             this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox23.TabIndex = 15;
             this.pictureBox23.TabStop = false;
@@ -1873,10 +1800,10 @@
             // pictureBox24
             // 
             this.pictureBox24.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox24.Image")));
-            this.pictureBox24.Location = new System.Drawing.Point(68, 1115);
-            this.pictureBox24.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox24.Location = new System.Drawing.Point(91, 1372);
+            this.pictureBox24.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox24.Name = "pictureBox24";
-            this.pictureBox24.Size = new System.Drawing.Size(208, 233);
+            this.pictureBox24.Size = new System.Drawing.Size(277, 287);
             this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox24.TabIndex = 14;
             this.pictureBox24.TabStop = false;
@@ -1884,10 +1811,10 @@
             // pictureBox25
             // 
             this.pictureBox25.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox25.Image")));
-            this.pictureBox25.Location = new System.Drawing.Point(68, 462);
-            this.pictureBox25.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox25.Location = new System.Drawing.Point(91, 569);
+            this.pictureBox25.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox25.Name = "pictureBox25";
-            this.pictureBox25.Size = new System.Drawing.Size(208, 233);
+            this.pictureBox25.Size = new System.Drawing.Size(277, 287);
             this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox25.TabIndex = 13;
             this.pictureBox25.TabStop = false;
@@ -1895,21 +1822,21 @@
             // pictureBox26
             // 
             this.pictureBox26.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox26.Image")));
-            this.pictureBox26.Location = new System.Drawing.Point(68, 118);
-            this.pictureBox26.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox26.Location = new System.Drawing.Point(91, 145);
+            this.pictureBox26.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox26.Name = "pictureBox26";
-            this.pictureBox26.Size = new System.Drawing.Size(208, 233);
+            this.pictureBox26.Size = new System.Drawing.Size(277, 287);
             this.pictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox26.TabIndex = 12;
             this.pictureBox26.TabStop = false;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(1169, 434);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox1.Location = new System.Drawing.Point(1559, 534);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(266, 171);
+            this.textBox1.Size = new System.Drawing.Size(353, 210);
             this.textBox1.TabIndex = 77;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -1918,9 +1845,10 @@
             this.panel4.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel4.Controls.Add(this.label50);
             this.panel4.Controls.Add(this.label20);
-            this.panel4.Location = new System.Drawing.Point(1253, 743);
+            this.panel4.Location = new System.Drawing.Point(1671, 914);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(100, 25);
+            this.panel4.Size = new System.Drawing.Size(133, 31);
             this.panel4.TabIndex = 78;
             this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
             // 
@@ -1928,20 +1856,19 @@
             // 
             this.label50.AutoSize = true;
             this.label50.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label50.Location = new System.Drawing.Point(76, 0);
-            this.label50.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label50.Location = new System.Drawing.Point(101, 0);
             this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(24, 25);
+            this.label50.Size = new System.Drawing.Size(28, 31);
             this.label50.TabIndex = 8;
             this.label50.Text = "₺";
             this.label50.Click += new System.EventHandler(this.label50_Click);
             // 
             // dashboard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(1443, 857);
+            this.ClientSize = new System.Drawing.Size(1924, 1055);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.panel3);
@@ -1959,7 +1886,7 @@
             this.Controls.Add(this.label11);
             this.Cursor = System.Windows.Forms.Cursors.PanNW;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.Name = "dashboard";
             this.Text = "AWESOME BOOKSTRORE";
